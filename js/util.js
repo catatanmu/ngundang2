@@ -123,7 +123,7 @@ export const util = (() => {
     };
 
     const animation = () => {
-        const duration = 59 * 500;
+        const duration = 5 * 1000;
         const animationEnd = Date.now() + duration;
         const colors = ["#FFC0CB", "#FF1493", "#C71585"];
 
